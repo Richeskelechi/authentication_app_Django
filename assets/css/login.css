@@ -146,10 +146,6 @@ form a {
   color: #000000;
 }
 
-form a:hover {
-  color: red;
-}
-
 .line {
   border: 1px solid #000000;
   width: 280px;
@@ -193,4 +189,7 @@ form a:hover {
 }
 form.profile span.helptext, form.profile div#id_password, form.profile label:last-of-type {
   display: none !important;
+}
+.register-now a:hover{
+  color: #00205c !important;
 }
