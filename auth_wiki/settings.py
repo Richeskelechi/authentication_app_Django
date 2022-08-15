@@ -17,7 +17,8 @@ SECRET_KEY = config(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['127.0.0.1:8000','https://team8-auth-wiki-app.herokuapp.com/']
+CSRF_TRUSTED_ORIGINS = ['127.0.0.1:8000','https://team8-auth-wiki-app.herokuapp.com/']
 
 
 # Application definition
