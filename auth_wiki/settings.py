@@ -17,8 +17,8 @@ SECRET_KEY = config(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['127.0.0.1:8000','https://team8-auth-wiki-app.herokuapp.com/']
-CSRF_TRUSTED_ORIGINS = ['127.0.0.1:8000','https://team8-auth-wiki-app.herokuapp.com/']
+ALLOWED_HOSTS = ['http://127.0.0.1:8000','https://team8-auth-wiki-app.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000','https://team8-auth-wiki-app.herokuapp.com']
 
 
 # Application definition
@@ -41,7 +41,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
