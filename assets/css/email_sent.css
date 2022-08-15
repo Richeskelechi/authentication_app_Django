@@ -3,7 +3,7 @@
     color: hsla(0, 0%, 100%, 1);
     text-align: center;
     padding: 150px;
-    background-image: url(../images/hero\ pic.png);
+    background-image: url("../images/hero pic.png");
     background-position: center;
     background-repeat: none;
     background-size: cover;

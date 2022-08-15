@@ -2,7 +2,7 @@
 
 /*home*/
 #home{
-    background-image: linear-gradient(to top, rgba(0, 32, 92, 0.82)60%,rgba(0, 32, 92, 0.82)60%), url("../images/image\ 1.png");
+    background-image: linear-gradient(to top, rgba(0, 32, 92, 0.82)60%,rgba(0, 32, 92, 0.82)60%), url("../images/image 1.png");
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -138,7 +138,7 @@ margin-left: 70px;
 /*Newsletter*/
 
 #Newsletter{
-    background-image: linear-gradient(to top, rgba(0, 32, 92, 0.75)60%,rgba(0, 32, 92, 0.75)60%), url("../images/image\ 5.png");
+    background-image: linear-gradient(to top, rgba(0, 32, 92, 0.75)60%,rgba(0, 32, 92, 0.75)60%), url("../images/image 5.png");
     width: 100%;
     background-size: cover;
     background-position: center;

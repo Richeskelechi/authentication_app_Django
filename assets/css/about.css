@@ -18,7 +18,7 @@ main{
     color: hsla(0, 0%, 100%, 1);
     text-align: center;
     padding: 150px;
-    background-image: url("../images/hero\ pic.png");
+    background-image: url("../images/hero pic.png");
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -62,7 +62,7 @@ main{
 }
 
 #form-ctn{
-    background-image: url("../images/Group\ 161.png");
+    background-image: url("../images/Group 161.png");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
